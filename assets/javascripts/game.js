@@ -1,9 +1,8 @@
 $( document ).ready(function() {
-  $('.game-start').attr("disabled", false);
+  $('.game-button').attr("disabled", false);
 });
 
-$('.game-start').click(function() {
-  $('.game-narrative').append("<br>You pick up the radio, but it goes silent.");
-  $(this).val("Sad...");
-  $(this).attr("disabled", true);
+$('.game-button').click(function() {
+  $('.game-narrative').append("<br>Hello? Hello!");
+  $(this).attr("disabled", true).val("Waiting on transmission...").attr("disabled", false);
 })
