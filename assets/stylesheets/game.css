@@ -6,6 +6,23 @@ html {
   font-size: 16px;
 }
 
+body {
+  max-width: 500px;
+  line-height: 1.3em;
+  margin: 3rem auto;
+}
+
 .button {
   background: #fff;
+  font-size: .75rem;
+  display: inline-block;
+  padding: 5px 10px;
+  border: solid 1px #bbb;
+  margin: 1rem auto;
+  cursor: pointer;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+}
+.button:active {
+  background: #ddd;
 }
