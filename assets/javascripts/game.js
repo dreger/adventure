@@ -3,6 +3,6 @@ $( document ).ready(function() {
 });
 
 $('.game-button').click(function() {
-  $('.game-narrative').append("<br>Hello? Hello!");
-  $(this).attr("disabled", true).val("Waiting on transmission...").attr("disabled", false);
+  $('.game-intro').fadeOut();
+  $(this).attr("disabled", true).val("Waiting on transmission...");
 })
