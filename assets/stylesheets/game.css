@@ -7,30 +7,26 @@ html {
 }
 
 body {
-  max-width: 756px;
-  line-height: 1.3em;
+  max-width: 500px;
+  line-height: 1.4em;
+  font-family: Georgia;
   margin: 3rem auto;
   overflow: auto;
 }
 
-.game-controls {
-  width: 30%;
-  float: left;
-}
 
-.game-story {
-  width: 70%;
-  float: right;
-}
+.game-narrative p:nth-child(2) { color: #555; }
+.game-narrative p:nth-child(3) { color: #999; }
+.game-narrative p:nth-child(n+4) { color: #aaa; }
 
 .button {
-  transition: background ease-out .1s;
+  transition: all ease-out .1s;
   background: #fff;
   font-size: .75rem;
   display: inline-block;
+  outline: none;
   padding: 5px 10px;
   border: solid 1px #bbb;
-  margin: 0 auto 1rem;
   cursor: pointer;
   border-bottom-width: 2px;
   border-radius: 4px;
